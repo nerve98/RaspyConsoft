@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Raspy:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Raspy_jar</output-path>
+    <root id="archive" name="Raspy.jar">
+      <element id="module-output" name="Raspy" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../mina-core-2.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../slf4j-api-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../slf4j-jdk14-1.7.25.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

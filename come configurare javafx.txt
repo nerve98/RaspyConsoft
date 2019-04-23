@@ -1,0 +1,7 @@
+Go to File -> Project Structure -> Libraries and add the JavaFX 11 SDK as a library to the project. Point to the lib folder of the JavaFX SDK.
+To solve the issue, click on Run -> Edit Configurations... and add these VM options:
+
+Linux/Mac
+Windows
+
+--module-path /path/to/javafx-sdk-11.0.2/lib --add-modules=javafx.controls,javafx.fxml
